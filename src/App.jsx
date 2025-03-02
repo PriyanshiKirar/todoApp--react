@@ -10,7 +10,7 @@ const App = () => {
     const [tasks, settasks] = useState([]);
 
     return (
-        <div className=" border-t-2 w-screen h-screen bg-zinc-850 flex  items-center flex-col">
+        <div className=" border-t-2 w-screen h-screen bg-zinc-800 flex  items-center flex-col">
             <Header tasks={tasks} />
             <Center tasks={tasks} settasks={settasks} />
             <Bottom tasks={tasks} settasks={settasks} />
